@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Resume_Shik Hur</title>
+    <style>
+        .education_date {
+            text-align: right;
+        }
+
+        .high_school_date {
+            text-align: right;
+        }
+
+        dt {
+            line-height: 250%;
+        }
+
+        table, th, td {
+            border:1px solid black;
+            text-align: center;
+        } 
+
+        aside {
+            width:170px;
+            background:navy;
+            color:white;
+            float:right;
+            text-align: center;
+        }
+
+        textarea {
+            width: 800px;
+            height: 150px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="head">
+            <br>
+            <h2 style="line-height: 1%; text-align: center;">Shik Hur</h2>
+            
+            <ul>
+                <li><small>100-1000 Cloudburst Dr, Whistler, BC, Canada, V8E 1E1</small></li>
+                <li><small>+1 604-111-2222</small></li>
+                <li><small>hurshik@hotmail.com</small></li>
+                <li><small><a href="https://github.com/" target="_blank">github</a> | <a href="https://www.linkedin.com" target="_blank">linkedin</a></small></li>
+            </ul>
+        </div>
+        
+        <nav><small>
+            <a href="#technical_skill">Technical Skills</a>
+            <a href="#education">| Education</a>
+            <a href="#technical_projects">| Technical Project</a>
+            <a href="#extracurricular_activities">| Extracurricular Activities</a>
+            <a href="#enrolled_classes">| Enrolled Classes</a>
+            <a href="#contact_me">| Contact Me</a>
+        </small></nav>
+        <br>
+    </header>
+
+    <a id="technical_skill"></a>
+    <div class="technical_skill">
+        <h3 style="line-height: 1%;">Technical Skills</h3>
+        <hr>
+        <ul>
+            <li><span><b>Language : </b></span>C, C++, C#, Python</li>
+            <li><span><b>Software : </b></span> Windows10, Linux, MS Word Excel</li>
+            <li><span><b>Interest : </b></span> Problem solving, Data structures and algorithms</li>
+        </ul>
+        <br>
+    </div>
+
+    <a id="education"></a>
+    <section class="education">
+        <h3 style="line-height: 1%;">Education</h3>
+        <hr>
+        <span><b>BC University, Vancouver, Canada</b></span>
+        <div class="education_date">Mar, 2011 ~ Feb 2015</div>
+        <ul>
+            <li><abbr title="Bachelor of Science">B.S</abbr> in Space Science & Astronomy</li>
+            <li><abbr title="Bachelor of Engineering">B.E</abbr> in Computer Science</li>
+        </ul>
+
+        <span><b>Seoul Samsung High Scool, Seoul, South Korea</b></span>
+        <div class="high_school_date">Mar, 2008 ~ Feb, 2011</div>
+        <ul>
+            <li>diploma</li>
+        </ul>
+        <br>
+    </section>
+
+    <a id="technical_projects"></a>
+    <div class="technical_projects">
+        <h3 style="line-height: 1%;">Technical Projects</h3>
+        <hr>
+        <dl>
+            <dt><i>ePortfolio (Nov 2013 - present)</i></dt>
+            <dd> - Design a Metro style website to present a collection of technical projects</dd>
+            <dd> - using Metro JS JavaScript plug-in on top of HTML5</dd>
+            <dt><i>Global Game Jam Vancouver (2015)</i></dt>
+            <dd> - Developed a 2D arcade flash game using C++17</dd>
+            <dt><i>Windows10 Hackathon (2013)</i></dt>
+            <dd> - Developed a timer application in C# and XAML in a group of three in 48 hours</dd>
+        </dl>
+        <br>
+    </div>
+    
+    <a id="extracurricular_activities"></a>
+    <div class="extracurricular_activities">
+        <article>
+            <h3 style="line-height: 1%;">Extracurricular Activities</h3>
+        <hr>
+        <ol>
+            <li>Running Crew Member</li>
+            <li>Snowboarding Crew Member</li>
+        </ol>
+        <p style="line-height: 50%;">Took part in the first "Vancouver RunRunRun"</p>
+        <p style="line-height: 50%;">Practiced cooperatively with 20 other performers</p>
+        </article>
+        <br>
+    </div>
+
+    <a id="enrolled_classes"></a>
+    <section>
+        <h3 style="line-height: 1%;">Enrolled Classes</h3>
+        <hr>
+        <table id="classes_table">
+            <tr>
+                <th>Course Name</th>
+                <th>Course Number</th>
+                <th>Course Credits</th>
+            </tr>
+            <tr><td>Programming Methods</td><td>COMP1510</td><td>7.0</td></tr>
+            <tr><td>Web Development 1</td><td>COMP1537</td><td>4.0</td></tr>
+            <tr><td>Applied Mathematics</td><td>COMP1113</td><td>4.0</td></tr>
+        </table>
+    </section>
+
+    <br>
+
+    <footer>
+        <a id="contact_me"></a>
+        <h3 style="line-height: 1%;">Contact me</h3>
+        <hr>
+        <form id="profile">
+            <fieldset>
+                <legend>user profile</legend>
+                Name : <input type="text" id="name" name="name" placeholder="Name" autofocus="autofocus"
+                  pattern="[A-Za-z]{8,20}" required="required"/>
+                Password : <input type="password" id="pwd" name="pwd" placeholder="Password"
+                  pattern="[0-9A-Za-z]{10,20}" required="required"/>
+                Email : <input type="email" id="email" name="email" placeholder="Email"/>
+                <label>Age: </label><input min="18" step="1" max="65" type="number" id="number" name="number" value="24"/>
+            </fieldset>
+            <fieldset>
+                <legend>comments</legend>
+                <textarea></textarea>
+            </fieldset>
+            <fieldset>
+                <input type="reset" id="reset" name="reset" value="Reset"/>
+                <input type="submit" id="submit" name="submit" value="Submit"/>
+            </fieldset>
+        </form>
+        
+        <a href="https://dummyimage.com" target="_blank"><figure><img src="images/jofree.jpg" width="800" height="200" alt="Jofree lake"></figure></a>
+        
+        <aside>
+            <p style="line-height: 50%;">Written by Shik, Hur</p>
+        </aside>
+    </footer>
+</body>
+</html>
