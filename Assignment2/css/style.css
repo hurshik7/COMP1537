@@ -1,0 +1,35 @@
+*.border1 {
+    padding: 1.2em;
+    background-color: #f5720f;
+    color: whitesmoke;
+    text-align: justify;
+    width: 800px;
+    border: 1px solid;
+    box-shadow: 10px 10px 5px -2px whitesmoke;
+    border-radius: 5px 10px 15px 20px;
+}
+
+#pasta_icon {
+    float: left
+}
+
+.content {
+    background-color: ivory;
+    padding-left: 10px;
+    color: #693023
+}
+
+#aglio_e_olio {
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    border-radius: 30%;
+}
+
+h3 {
+    clear: both;
+}
+
+#ingredients {
+    clear: both;
+}
