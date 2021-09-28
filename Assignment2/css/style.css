@@ -27,16 +27,21 @@ section {
 }
 
 #aglio_e_olio {
+    border-radius: 30%;
     float: left;
     margin-right: 10px;
     margin-bottom: 20px;
-    border-radius: 30%;
 }
 
-ol ul li {
+ol li {
+    margin: 20px;
+}
+
+.parmigiano {
     font-size: small;
     font-style: oblique;
     list-style-type: square;
+    padding-left: 60px;
 }
 
 h3 {
