@@ -62,7 +62,7 @@ header a{
     background-color: ivory;
     display: grid;
     grid-template-rows: 50% 15% 35%;
-    min-height: 600px;
+    min-height: 60vh;
 }
 
 section h2 {
