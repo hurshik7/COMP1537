@@ -123,9 +123,8 @@ section h2 {
 }
 
 .square {
-    width: 30px;
-    height: 30px;
-    line-height: 30px;
+    width: 3vh;
+    height: 3vh;
     border-radius: 10%;
     margin: 0 auto;
 }
@@ -179,9 +178,8 @@ section h2 {
     }
 
     .square {
-        width: 50px;
-        height: 50px;
-        line-height: 50px;
+        width: 5vh;
+        height: 5vh;
     }
 
     #square1 {
@@ -236,9 +234,8 @@ section h2 {
     }
 
     .square {
-        width: 100px;
-        height: 100px;
-        line-height: 100px;
+        width: 8vh;
+        height: 8vh;
     }
 }
 
