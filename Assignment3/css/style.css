@@ -2,8 +2,8 @@
 header {
     border-bottom: 1px solid lightgrey;
     display: grid;
-    grid-template-columns: 20px 1fr 1fr 1fr 1fr 20px;
-    grid-template-rows: 5fr 3fr;
+    grid-template-columns: 4% 23% 23% 23% 23% 4%;
+    grid-template-rows: 62.5% 37.5%;
     grid-column-gap: 3px;
     grid-row-gap: 7px; 
     padding-bottom: 10px;
@@ -59,8 +59,8 @@ header a{
 
 @media screen and (max-width:700px) {
     header {
-        grid-template-columns: 20px 1fr 2fr 20px;
-        grid-template-rows: 1fr 1fr 1fr 1fr;
+        grid-template-columns: 20px 33.3% 66.6% 20px;
+        grid-template-rows: 25% 25% 25% 25%;
         grid-row-gap: 3px;
     }
 
@@ -100,8 +100,8 @@ header a{
 
 #square_wrap {
     display: grid;
-    grid-template-columns: 5fr 1fr 1fr 5fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 41.6% 8.3% 8.3% 41.6;
+    grid-template-rows: 50% 50%;
     padding-top: 20px;
 }
 
@@ -141,13 +141,13 @@ header a{
     width: 90%;
     margin: 0 auto;  
     display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: repeat(8, 3fr) 1fr 1fr;
+    grid-template-columns: 100%;
+    grid-template-rows: repeat(8, 11.5%) 3.8% 3.8%;
     grid-gap: 20px;
 }
 
 .top {
-    padding-bottom: 60%;
+    padding-bottom: 50%;
     background-size: cover;
     background-position: center center;
     border-top-left-radius: 2%;
@@ -158,7 +158,7 @@ header a{
 /*tablet*/
 @media screen and (min-width:701px) {
     #square_wrap {
-        grid-template-columns: 5fr 1fr 1fr 1fr 1fr 5fr;
+        grid-template-columns: 36% 7% 7% 7% 7% 36%;
         grid-template-rows: auto;
         grid-gap: 3px;
     }
@@ -182,7 +182,7 @@ header a{
     }
 
     #section_wrap {
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 50% 50%;
         grid-template-rows: auto;
     }
   
@@ -196,7 +196,7 @@ header a{
     }
 
     header {
-        grid-template-columns: 20px 3fr 3fr 1fr 3fr 3fr 20px;
+        grid-template-columns: 2% 22% 22% 8% 22% 22% 2%;
     }
 
     #menu3 {
@@ -230,7 +230,7 @@ header a{
 /*pc*/
 @media screen and (min-width:1400px) {
     #section_wrap {
-        grid-template-columns: repeat(4, 1fr);
+        grid-template-columns: repeat(4, 25%);
         grid-template-rows: auto;
     }
 
@@ -244,7 +244,7 @@ header a{
     }
 
     header {
-        grid-template-columns: 20px 3fr 3fr 1fr 3fr 3fr 20px;
+        grid-template-columns: 2% 22% 22% 8% 22% 22% 2%;
     }
 
     #menu3 {
@@ -271,7 +271,7 @@ section {
     background-color: ivory;
     border-radius: 2%;
     display: grid;
-    grid-template-rows: 7fr 2fr;
+    grid-template-rows: 50% 10% 40%;
 }
 
 section h2 {
@@ -286,14 +286,14 @@ section h2 {
 
 .article {
     display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 3fr 1fr;
+    grid-template-columns: 100%;
+    grid-template-rows: 85% 15%;
 }
 
 aside {
     background-color: lightseagreen;
     display: grid;
-    grid-template-columns: 1fr 4fr;
+    grid-template-columns: 20% 80%;
     padding-left: 20px;
 }
 
