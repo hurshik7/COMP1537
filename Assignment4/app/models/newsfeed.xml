@@ -1,0 +1,339 @@
+<table>
+    <tr>
+        <th>First year - level 1</th>
+    </tr>
+    <tr>
+        <td>Course number</td>
+        <td>Course name</td>
+        <td>Credits</td>
+    </tr>
+    <tr>
+        <td>COMM 1116</td>
+        <td>Business Communications 1</td>
+        <td>4.0</td>
+    </tr>
+    <tr>
+        <td>COMP 1100</td>
+        <td>CST Program Fundamentals</td>
+        <td>1.0</td>
+    </tr>
+    <tr>
+        <td>COMP 1113</td>
+        <td>Applied Mathematics</td>
+        <td>4.0</td>
+    </tr>
+    <tr>
+        <td>COMP 1510</td>
+        <td>Programming Methods</td>
+        <td>7.0</td>
+    </tr>
+    <tr>
+        <td>COMP 1537</td>
+        <td>Web Development 1</td>
+        <td>4.0</td>
+    </tr>
+    <tr>
+        <td>COMP 1712</td>
+        <td>Business Analysis and System Design</td>
+        <td>4.0</td>
+    </tr>
+    <tr>
+        <td>COMP 1800</td>
+        <td>Project 1</td>
+        <td>4.0</td>
+    </tr>
+    <tr>
+        <th>First year - level 2</th>
+    </tr>
+    <tr>
+        <td>COMM 2216</td>
+        <td>Business Communications 2</td>
+        <td>4.0</td>
+    </tr>
+    <tr>
+        <td>COMP 2121</td>
+        <td>Discrete Mathematics</td>
+        <td>4.0</td>
+    </tr>
+    <tr>
+        <td>COMP 2510</td>
+        <td>Procedural Programming</td>
+        <td>5.0</td>
+    </tr>
+    <tr>
+        <td>COMP 2522</td>
+        <td>Object Oriented Programming 1</td>
+        <td>5.0</td>
+    </tr>
+    <tr>
+        <td>COMP 2714</td>
+        <td>Relational Database Systems</td>
+        <td>5.0</td>
+    </tr>
+    <tr>
+        <td>COMP 2721</td>
+        <td>Computer Organization/Architecture</td>
+        <td>4.0</td>
+    </tr>
+    <tr>
+        <td>COMP 2537</td>
+        <td>Web Development 2</td>
+        <td>1.5</td>
+    </tr>
+    <tr>
+        <td>COMP 2800</td>
+        <td>Project 2</td>
+        <td>4.5</td>
+    </tr>
+    <tr>
+        <th>Second year - level 3</th>
+    </tr>
+    <tr>
+        <td>COMP 3522</td>
+        <td>Object Oriented Programming 2</td>
+        <td>6.0</td>
+    </tr>
+    <tr>
+        <td>COMP 3717</td>
+        <td>Mobile Development with Android Technologies</td>
+        <td>4.0</td>
+    </tr>
+    <tr>
+        <td>COMP 3721</td>
+        <td>Introduction to Data Communications</td>
+        <td>4.0</td>
+    </tr>
+    <tr>
+        <td>COMP 3760</td>
+        <td>Algorithm Analysis and Design</td>
+        <td>4.0</td>
+    </tr>
+    <tr>
+        <td>MATH 3042</td>
+        <td>Applied Probability and Statistics</td>
+        <td>4.0</td>
+    </tr>
+    <tr>
+        <td>COMP 3800</td>
+        <td>Projects Practicum 1</td>
+        <td>5.0</td>
+    </tr>
+    <tr>
+        <td>COMP 3981</td>
+        <td>Introduction to Artificial Intelligence</td>
+        <td>5.0</td>
+    </tr>
+    <tr>
+        <td>COMP 3940</td>
+        <td>Client/Server Systems Development Fundamentals</td>
+        <td>5.0</td>
+    </tr>
+    <tr>
+        <td>COMP 3962</td>
+        <td>Cloud Computing Platforms</td>
+        <td>5.0</td>
+    </tr>
+    <tr>
+        <td>COMP 3920</td>
+        <td>Database Systems 1</td>
+        <td>5.0</td>
+    </tr>
+    <tr>
+        <td>COMP 3980</td>
+        <td>Network Protocol Design and Implementation</td>
+        <td>5.0</td>
+    </tr>
+    <tr>
+        <td>COMP 3773</td>
+        <td>Programming for Performance</td>
+        <td>4.0</td>
+    </tr>
+    <tr>
+        <td>COMP 3931</td>
+        <td>Digital Image, Video and Audio Fundamentals</td>
+        <td>5.0</td>
+    </tr>
+    <tr>
+        <td>COMP 3910</td>
+        <td>Full-Stack Development for Enterprise Systems</td>
+        <td>5.0</td>
+    </tr>
+    <tr>
+        <td>COMP 3948</td>
+        <td>Predictive Modelling</td>
+        <td>5.0</td>
+    </tr>
+    <tr>
+        <td>COMP 3958</td>
+        <td>Functional Programming</td>
+        <td>5.0</td>
+    </tr>
+    <tr>
+        <td>COMP 3942</td>
+        <td>Ideation</td>
+        <td>5.0</td>
+    </tr>
+    <tr>
+        <td>COMP 3951</td>
+        <td>Selected Topics in Application Development</td>
+        <td>5.0</td>
+    </tr>
+    <tr>
+        <th>Second year - level 4</th>
+    </tr>
+    <tr>
+        <td>BLAW 3600</td>
+        <td>Computers and the Law</td>
+        <td>4.0</td>
+    </tr>
+    <tr>
+        <td>COMP 4537</td>
+        <td>Internet Software Architecture</td>
+        <td>4.0</td>
+    </tr>
+    <tr>
+        <td>COMP 4735</td>
+        <td>Operating Systems</td>
+        <td>5.0</td>
+    </tr>
+    <tr>
+        <td>COMP 4800</td>
+        <td>Projects Practicum 2</td>
+        <td>5.0</td>
+    </tr>
+    <tr>
+        <td>COMP 4983</td>
+        <td>Machine Learning</td>
+        <td>5.0</td>
+    </tr>
+    <tr>
+        <td>COMP 4989</td>
+        <td>Selected Topics in Artificial Intelligence and Machine Learning</td>
+        <td>5.0</td>
+    </tr>
+    <tr>
+        <td>COMP 4941</td>
+        <td>Client/Server Systems Quality Control</td>
+        <td>5.0</td>
+    </tr>
+    <tr>
+        <td>COMP 4945</td>
+        <td>Distributed Software Architectures</td>
+        <td>5.0</td>
+    </tr>
+    <tr>
+        <td>COMP 4964</td>
+        <td>DevOps Engineering</td>
+        <td>5.0</td>
+    </tr>
+    <tr>
+        <td>COMP 4968</td>
+        <td>Serverless Computing and Microservices</td>
+        <td>5.0</td>
+    </tr>
+    <tr>
+        <td>COMP 4976</td>
+        <td>Web Application Development with Microsoft Technologies</td>
+        <td>5.0</td>
+    </tr>
+    <tr>
+        <td>COMP 4977</td>
+        <td>Mobile Development with Apple Technologies</td>
+        <td>5.0</td>
+    </tr>
+    <tr>
+        <td>COMP 4921</td>
+        <td>Database Systems 2</td>
+        <td>5.0</td>
+    </tr>
+    <tr>
+        <td>COMP 4925</td>
+        <td>Selected Topics in Database Systems</td>
+        <td>5.0</td>
+    </tr>
+    <tr>
+        <td>COMP 4981</td>
+        <td>Advanced Network Applications Development</td>
+        <td>5.0</td>
+    </tr>
+    <tr>
+        <td>COMP 4985</td>
+        <td>Selected Topics in Data Communications/Internetworking</td>
+        <td>5.0</td>
+    </tr>
+    <tr>
+        <td>COMP 4932</td>
+        <td>Selected Topics in Digital Processing</td>
+        <td>5.0</td>
+    </tr>
+    <tr>
+        <td>COMP 4995</td>
+        <td>Gaming Systems</td>
+        <td>5.0</td>
+    </tr>
+    <tr>
+        <td>COMP 4870</td>
+        <td>Internet Planning and Development</td>
+        <td>7.0</td>
+    </tr>
+    <tr>
+        <td>COMP 4911</td>
+        <td>Developing Enterprise Service</td>
+        <td>5.0</td>
+    </tr>
+    <tr>
+        <td>COMP 4915</td>
+        <td>System Administration</td>
+        <td>5.0</td>
+    </tr>
+    <tr>
+        <td>COMP 4948</td>
+        <td>Predictive Machine Learning</td>
+        <td>5.0</td>
+    </tr>
+    <tr>
+        <td>COMP 4949</td>
+        <td>Big Data Analytics Methods</td>
+        <td>5.0</td>
+    </tr>
+    <tr>
+        <td>COMP 4958</td>
+        <td>Concurrent Programming</td>
+        <td>5.0</td>
+    </tr>
+    <tr>
+        <td>COMP 4959</td>
+        <td>Selected Application of Programming Paradigms</td>
+        <td>5.0</td>
+    </tr>
+    <tr>
+        <td>COMP 4943</td>
+        <td>UX/UI Design and Prototyping</td>
+        <td>5.0</td>
+    </tr>
+    <tr>
+        <td>COMP 4944</td>
+        <td>Minimal Viable Product(MVP)</td>
+        <td>5.0</td>
+    </tr>
+    <tr>
+        <td>COMP 4946</td>
+        <td>Business Plan</td>
+        <td>6.0</td>
+    </tr>
+    <tr>
+        <td>MKTG 4919</td>
+        <td>Pitching and Positioning</td>
+        <td>4.0</td>
+    </tr>
+    <tr>
+        <td>COMP 4952</td>
+        <td>HCI for Application Development</td>
+        <td>5.0</td>
+    </tr>
+    <tr>
+        <td>COMP 4956</td>
+        <td>Software Engineering</td>
+        <td>5.0</td>
+    </tr>
+</table>
