@@ -8,7 +8,7 @@ const fs = require("fs");
 
 app.use('/js', express.static('./public/js'));
 app.use('/css', express.static('./public/css'));
-app.use('/img', express.static('./public/images'));
+app.use('/images', express.static('./public/images'));
 
 // Go to: http://localhost:8000
 app.get('/', function (req, res) {
