@@ -1,0 +1,121 @@
+
+@import url(https://fonts.googleapis.com/css?family=Hind);
+
+html, body {
+  margin: 0em;
+  padding: 0.5em;
+}
+
+body {
+  font-family: "Hind";
+  font-size: 18pt;
+  display: grid;
+  grid-template-rows: auto;
+}
+
+#logo {
+  display: block;
+  margin: 0px auto;
+  width: 20%;
+  height: auto;
+}
+
+section h1 {
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: dodgerblue;
+  border: solid dodgerblue;
+  border-radius: 4%;
+  padding: 2px;
+  text-align: center;
+  display: block;
+}
+
+.container > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2em;
+  color: #ffeead;
+}
+
+.container > div > img {
+  width: 100%;
+  height: 100%;
+}
+
+.container {
+  display: grid;
+  grid-gap: 5px;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  grid-auto-rows: 75px;
+  grid-auto-flow: dense;
+}
+
+.horizontal {
+  grid-column: auto / span 2;
+}
+
+.vertical {
+  grid-row: span 2;
+}
+
+.big {
+  grid-column: span 2;
+  grid-row: span 2;
+}
+
+a:hover {
+  background-color: #FFC145;
+}
+
+#instruction {
+  color: dodgerblue;
+  background-color: #ffeead;
+  text-align: center;
+}
+
+#click_again_error {
+  color: dodgerblue;
+  background-color: #ffeead;
+  font-style: italic;
+  font-size: 2rem;
+  text-align: center;
+}
+
+table {
+  margin-top: 5px;
+  border-collapse: collapse;
+  margin: 0 auto;
+}
+
+table #first {
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
+td {
+  padding: 5px;
+  text-align: center;
+}
+
+footer {
+  margin-top: 10px;
+  border: 1px solid black;
+  text-align: center;
+
+}
+
+.table_container {
+  margin-top: 10px;
+}
+
+.table_container #table_header {
+  font-weight: bold;
+  color: dodgerblue;
+  font-size: 1.5em;
+  text-align: center;
+}

@@ -1,0 +1,120 @@
+<table>
+    <tr>
+        <th>First year - level 1</th>
+    </tr>
+    <tr id="first">
+        <td>Course number</td>
+        <td>Course name</td>
+        <td>Credits</td>
+        <td>Instructor</td>
+        <td>Importance</td>
+    </tr>
+    <tr>
+        <td>COMM 1116</td>
+        <td>Business Communications 1</td>
+        <td>4.0</td>
+        <td>Sam Lee</td>
+        <td>3 / 5</td>
+    </tr>
+    <tr>
+        <td>COMP 1100</td>
+        <td>CST Program Fundamentals</td>
+        <td>1.0</td>
+        <td>Donna Turner</td>
+        <td>1 / 5</td>
+    </tr>
+    <tr>
+        <td>COMP 1113</td>
+        <td>Applied Mathematics</td>
+        <td>4.0</td>
+        <td>Takashi Nakamura</td>
+        <td>4 / 5</td>
+    </tr>
+    <tr>
+        <td>COMP 1510</td>
+        <td>Programming Methods</td>
+        <td>7.0</td>
+        <td>Chris Thompson</td>
+        <td>5 / 5</td>
+    </tr>
+    <tr>
+        <td>COMP 1537</td>
+        <td>Web Development 1</td>
+        <td>4.0</td>
+        <td>Arron Ferguson</td>
+        <td>5 / 5</td>
+    </tr>
+    <tr>
+        <td>COMP 1712</td>
+        <td>Business Analysis and System Design</td>
+        <td>4.0</td>
+        <td>Hoda Rashedi</td>
+        <td>4 / 5</td>
+    </tr>
+    <tr>
+        <td>COMP 1800</td>
+        <td>Project 1</td>
+        <td>4.0</td>
+        <td>Hoda Rashedi</td>
+        <td>4 / 5</td>
+    </tr>
+    <tr>
+        <th>First year - level 2</th>
+    </tr>
+    <tr>
+        <td>COMM 2216</td>
+        <td>Business Communications 2</td>
+        <td>4.0</td>
+        <td>COMM1116</td>
+        <td>3 / 5</td>
+    </tr>
+    <tr>
+        <td>COMP 2121</td>
+        <td>Discrete Mathematics</td>
+        <td>4.0</td>
+        <td>COMP1113</td>
+        <td>4 / 5</td>
+    </tr>
+    <tr>
+        <td>COMP 2511</td>
+        <td>Procedural Programming</td>
+        <td>5.0</td>
+        <td>COMP1510</td>
+        <td>5 / 5</td>
+    </tr>
+    <tr>
+        <td>COMP 2522</td>
+        <td>Object Oriented Programming 1</td>
+        <td>5.0</td>
+        <td>COMP1510</td>
+        <td>5 / 5</td>
+    </tr>
+    <tr>
+        <td>COMP 2714</td>
+        <td>Relational Database Systems</td>
+        <td>5.0</td>
+        <td>COMP1712</td>
+        <td>4 / 5</td>
+    </tr>
+    <tr>
+        <td>COMP 2721</td>
+        <td>Computer Organization/Architecture</td>
+        <td>4.0</td>
+        <td>COMP1113, COMP1510</td>
+        <td>4 / 5</td>
+    </tr>
+    <tr>
+        <td>COMP 2537</td>
+        <td>Web Development 2</td>
+        <td>1.5</td>
+        <td>COMP1510, COMP1537, COMP1800</td>
+        <td>4 / 5</td>
+    </tr>
+    <tr>
+        <td>COMP 2800</td>
+        <td>Project 2</td>
+        <td>4.5</td>
+        <td>COMP1510, COMP1537, COMP1800</td>
+        <td>4 / 5</td>
+    </tr>
+</table>

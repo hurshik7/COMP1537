@@ -1,0 +1,120 @@
+<table>
+    <tr>
+        <th>Second year - level 3 (Digital Processing Option)</th>
+    </tr>
+    <tr id="first">
+        <td>Course number</td>
+        <td>Course name</td>
+        <td>Credits</td>
+        <td>Prerequisite(s)</td>
+        <td>Importance</td>
+    </tr>
+    <tr>
+        <td>COMP 3522</td>
+        <td>Object Oriented Programming 2</td>
+        <td>6.0</td>
+        <td>COMP2510, COMP2526, COMP2522</td>
+        <td>5 / 5</td>
+    </tr>
+    <tr>
+        <td>COMP 3717</td>
+        <td>Mobile Development with Android Technologies</td>
+        <td>4.0</td>
+        <td>COMP2522</td>
+        <td>4 / 5</td>
+    </tr>
+    <tr>
+        <td>COMP 3721</td>
+        <td>Introduction to Data Communications</td>
+        <td>4.0</td>
+        <td>COMP2721</td>
+        <td>4 / 5</td>
+    </tr>
+    <tr>
+        <td>COMP 3760</td>
+        <td>Algorithm Analysis and Design</td>
+        <td>4.0</td>
+        <td>COMP2121, COMP2510, COMP2522</td>
+        <td>5 / 5</td>
+    </tr>
+    <tr>
+        <td>MATH 3042</td>
+        <td>Applied Probability and Statistics</td>
+        <td>4.0</td>
+        <td>COMP2121</td>
+        <td>4 / 5</td>
+    </tr>
+    <tr>
+        <td>COMP 3800</td>
+        <td>Projects Practicum 1</td>
+        <td>5.0</td>
+        <td></td>
+        <td>4 / 5</td>
+    </tr>
+    <tr>
+        <td>COMP 3773</td>
+        <td>Programming for Performance</td>
+        <td>4.0</td>
+        <td>COMP2510</td>
+        <td>4 / 5</td>
+    </tr>
+    <tr>
+        <td>COMP 3931</td>
+        <td>Digital Image, Video and Audio Fundamentals</td>
+        <td>5.0</td>
+        <td></td>
+        <td>4 / 5</td>
+    </tr>
+    <tr>
+        <th>Second year - level 4 (Digital Processing Option)</th>
+    </tr>
+    <tr id="first">
+        <td>Course number</td>
+        <td>Course name</td>
+        <td>Credits</td>
+        <td>Prerequisite(s)</td>
+        <td>Importance</td>
+    </tr>
+    <tr>
+        <td>BLAW 3600</td>
+        <td>Computers and the Law</td>
+        <td>4.0</td>
+        <td></td>
+        <td>3 / 5</td>
+    </tr>
+    <tr>
+        <td>COMP 4537</td>
+        <td>Internet Software Architecture</td>
+        <td>4.0</td>
+        <td>COMP1537, COMP3522</td>
+        <td>5 / 5</td>
+    </tr>
+    <tr>
+        <td>COMP 4735</td>
+        <td>Operating Systems</td>
+        <td>5.0</td>
+        <td>COMP2721, COMP2510</td>
+        <td>5 / 5</td>
+    </tr>
+    <tr>
+        <td>COMP 4800</td>
+        <td>Projects Practicum 2</td>
+        <td>5.0</td>
+        <td></td>
+        <td>4 / 5</td>
+    </tr>
+    <tr>
+        <td>COMP 4932</td>
+        <td>Selected Topics in Digital Processing</td>
+        <td>5.0</td>
+        <td>COMP3931</td>
+        <td>4 / 5</td>
+    </tr>
+    <tr>
+        <td>COMP 4995</td>
+        <td>Gaming Systems</td>
+        <td>5.0</td>
+        <td>COMP3931</td>
+        <td>4 / 5</td>
+    </tr>
+</table>
