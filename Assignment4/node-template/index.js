@@ -28,7 +28,7 @@ app.get('/data/newsfeed', function (req, res) {
     res.send(doc);
 });
 
-app.use(function (req, res, next) {
+app.use(function (req, res) {
   res.status(404).send("Nothing there, 404.");
 })
 

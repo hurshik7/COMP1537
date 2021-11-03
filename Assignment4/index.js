@@ -30,12 +30,12 @@ app.get('/data/newsfeed2', function (req, res) {
     res.send(doc);
 });
 
-app.use(function (req, res, next) {
+app.use(function (req, res) {
   res.status(404).send("Nothing there, 404.");
-})
+});
 
 // RUN SERVER
 let port = 8000;
 app.listen(port, function () {
     console.log('BCIT Level-1 courses list app listening on port ' + port + '!');
-})
+});

@@ -9,7 +9,7 @@ function ajaxGET(path, callback) {
         if (this.readyState == XMLHttpRequest.DONE && this.status == 200) {
             callback(this.responseText);
         }
-    }
+    };
     xhr.open("GET", path);
     xhr.send();
 }
