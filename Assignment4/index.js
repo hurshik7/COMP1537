@@ -1,6 +1,3 @@
-// https://expressjs.com/en/guide/routing.html
-
-
 // REQUIRES
 const express = require('express');
 const app = express();
@@ -28,6 +25,11 @@ app.get('/data/newsfeed', function (req, res) {
     res.send(doc);
 });
 
+app.get('/data/newsfeed2', function (req, res) {
+    let doc = fs.readFileSync('./app/models/newsfeed2.xml', "utf8");
+    res.send(doc);
+});
+
 app.use(function (req, res, next) {
   res.status(404).send("Nothing there, 404.");
 })
@@ -35,5 +37,5 @@ app.use(function (req, res, next) {
 // RUN SERVER
 let port = 8000;
 app.listen(port, function () {
-    console.log('Example app listening on port ' + port + '!');
+    console.log('BCIT Level-1 courses list app listening on port ' + port + '!');
 })
