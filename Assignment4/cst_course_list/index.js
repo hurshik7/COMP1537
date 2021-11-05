@@ -20,13 +20,13 @@ app.get('/', function (req, res) {
 // SOMETHING OTHER THAN NEWSFEED.XML
 // YOU'LL HAVE TO UPDATE THIS TOO!!!
 ////////////////////////////////////
-app.get('/data/newsfeed', function (req, res) {
-    let doc = fs.readFileSync('./app/models/newsfeed.xml', "utf8");
+app.get('/data/firstyearcourses', function (req, res) {
+    let doc = fs.readFileSync('./app/models/firstyearcourses.xml', "utf8");
     res.send(doc);
 });
 
-app.get('/data/newsfeed2', function (req, res) {
-    let doc = fs.readFileSync('./app/models/newsfeed2.xml', "utf8");
+app.get('/data/secondyearcourses', function (req, res) {
+    let doc = fs.readFileSync('./app/models/secondyearcourses.xml', "utf8");
     res.send(doc);
 });
 

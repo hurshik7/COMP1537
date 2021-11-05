@@ -18,22 +18,22 @@ function ajaxGET(path, callback) {
 // YOU CAN CHANGE THE PATH, BUT
 // YOU MUST CHANGE IT IN INDEX.JS
 //////////////////////////////////
-ajaxGET("/data/newsfeed", function(data) {
-    document.getElementById("newsfeed").innerHTML = data;
+ajaxGET("/data/firstyearcourses", function(data) {
+    document.getElementById("firstyearcourses").innerHTML = data;
 });
 
 
-document.querySelector("#click4NewsFeed").addEventListener("click", function(e) {
+document.querySelector("#click4Secondyearcourses").addEventListener("click", function(e) {
     e.preventDefault();
 
-    ajaxGET("/data/newsfeed2", function(data) {
+    ajaxGET("/data/secondyearcourses", function(data) {
         if (isLevel2Loaded) {
             console.log("Second year courses have already loaded!");
             document.getElementById("click_again_error").innerHTML = "Level - 2 courses have already loaded!";
         }
         else {
             console.log(data);
-            document.getElementById("newsfeed2").innerHTML = data;
+            document.getElementById("secondyearcourses").innerHTML = data;
             isLevel2Loaded = true;
         }
     });
