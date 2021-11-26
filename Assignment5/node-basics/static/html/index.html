@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <title>Single Page Application (SPA)</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css"/>
+  </head>
+  <body>
+
+    <div id="left">
+      <p id="p1">Date to go here.</p>
+      <ul id="mainMenu">
+        <li><a id="getDate" href="">AJAX GET date from server</a></li>
+        <li><a id="clearDate" href="">Clear date data in page</a></li>
+        <li><a id="getJSONList" href="">Click to get a JSON list</a></li>
+        <li><a id="getHTMLList" href="">Click to get a HTML list</a></li>
+        <li><a id="getJSONCourses" href="">Click to get a list of courses in JSON</a></li>
+      </ul>
+      <div id="content">
+        <!-- server content to go here -->
+      </div>
+
+      <div>
+        <form id="emailListForm">
+          <fieldset>
+            <legend>Register</legend>
+            <input id="firstName" type="text" placeholder="first name" name="firstName" autofocus="autofocus" value="Arron"/><br/>
+            <input id="lastName" type="text" placeholder="last name" name="lastName"  value="Ferguson"/><br/>
+            <input id="email" type="email" placeholder="email" name="email" value="arron_ferguson@bcit.ca"/><br/>
+            <input id="submit" type="button" value="Submit"/>
+            <input type="reset" value="Reset"/>
+          </fieldset>
+        </form>
+        <p id="p2"></p>
+      </div>
+    </div>
+
+    <script src="js/client.js"></script>
+  </body>
+</html>

@@ -1,0 +1,30 @@
+#content {
+  background-color: aquamarine;
+  float: right;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  width: 50%;
+}
+#left {
+  background-color: bisque;
+  float: left;
+  width: 50%;
+}
+input[type='text'], input[type='password'], input[type='email'] {
+  padding: 5px;
+  margin: 5px;
+  border: 2px solid #ccccdd;
+  border-radius: 5px;
+}
+input[type='text']:focus, input[type='password']:focus, input[type='email']:focus {
+    border-color: #343434;
+}
+input[type='button'], input[type='reset']{
+    padding: 5px 15px;
+    background: #ccc;
+    border: 0 none;
+    margin-left: 12px;
+    cursor: pointer;
+    border-radius: 5px;
+}
