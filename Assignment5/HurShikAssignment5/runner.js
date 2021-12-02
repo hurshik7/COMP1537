@@ -60,7 +60,7 @@ app.get("/profile", function (req, res) {
         if (userData.length > 0) {
             profileDOM.window.document.getElementById("user-info-container").innerHTML
             += `<div id="user-info">
-                    <div id="user-name">${userData[0].name}</div>
+                    <div id="user-name">${userData[0].firstname}, ${userData[0].lastname}</div>
                     <div id="user-email">${userData[0].email}</div>
                     <div id="user-city">${userData[0].city}</div>
                     <div id="user-postcode">${userData[0].postcode}</div>
@@ -141,7 +141,7 @@ app.post("/login", function (req, res) {
         // authenticate the user, create a session
         req.session.loggedIn = true;
         req.session.email = userRecord.email;
-        req.session.name = userRecord.name;
+        req.session.name = userRecord.firstname;
         req.session.save(function (err) {
           // session saved, for analytics, record this in a DB
         });
@@ -213,7 +213,8 @@ async function init() {
         use runner;
         CREATE TABLE IF NOT EXISTS user (
         ID int NOT NULL AUTO_INCREMENT,
-        name varchar(30),
+        firstname varchar(30),
+        lastname varchar(30),
         email varchar(30),
         password varchar(30),
         totaldistance int,
@@ -227,10 +228,11 @@ async function init() {
   const [rows, fields] = await connection.query("SELECT * FROM user");
   if (rows.length == 0) {
     let userRecords =
-      "insert into user (name, email, password, totaldistance, averagepace, level, city, postcode) values ?";
+      "insert into user (firstname, lastname, email, password, totaldistance, averagepace, level, city, postcode) values ?";
     let recordValues = [
       [
         "Shik",
+        "Hur",
         "shik@techschool.ca",
         "abc123",
         384,
