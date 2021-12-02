@@ -1,4 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Comforter+Brush&family=Mukta:wght@400&display=swap');
+@font-face {
+  font-family: 'Mukta';
+  src: url('/fonts/Mukta-Regular.ttf') format('truetype');
+}
 
 body {
   font-family: 'Mukta', sans-serif;

@@ -33,12 +33,12 @@ app.get("/", function (req, res) {
 });
 
 app.get("/profile", function (req, res) {
-  // check for a session first!
+  // check for a session
   if (req.session.loggedIn) {
     let profile = fs.readFileSync("./app/html/profile.html", "utf8");
     let profileDOM = new JSDOM(profile);
 
-    //get the user's data and put it into the page!
+    //get the user's data and put it into the page
     profileDOM.window.document.getElementsByTagName("title")[0].innerHTML =
       req.session.name + "'s running data";
     profileDOM.window.document.getElementById("greeting-msg").innerHTML =
@@ -84,9 +84,7 @@ app.get("/profile", function (req, res) {
         console.log(error);
       }
       if (runningData.length > 0) {
-        //console.log(runningData);
         for (let i = 0; i < runningData.length; i++) {
-          //console.log(runningData[i]);
           profileDOM.window.document.getElementById(
             "card-container"
           ).innerHTML += `<div id="card-content${i + 1}">
@@ -110,7 +108,6 @@ app.get("/profile", function (req, res) {
                             </div>
                         </div>`;
         }
-        //<img src="/imgs/pic0${i}.PNG" alt="pic0${i + 1}" class="running-img" />
         res.set("Server", "Wazubi Engine");
         res.set("X-Powered-By", "Wazubi");
         res.send(profileDOM.serialize());
@@ -120,7 +117,7 @@ app.get("/profile", function (req, res) {
       }
     });
   } else {
-    // not logged in - no session and no access, redirect to home!
+    // not logged in - no session and no access, redirect to home
     res.redirect("/");
   }
 });
