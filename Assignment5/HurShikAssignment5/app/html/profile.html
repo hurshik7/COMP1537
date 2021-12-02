@@ -1,50 +1,50 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>Profile</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Generate favicons using: https://favicon.io/ -->
-    <link href="/img/favicon.ico" rel="icon" type="image/x-icon" />
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>HUR_SHIK_COMP1537_Assignment5</title>
     <link rel="stylesheet" href="/css/profile.css">
-  </head>
-  <body>
+    <link href="/imgs/runner.ico" rel="icon" type="image/x-icon" />
+</head>
 
-    <div id="content">
-      <div class="hero_image_banner">
-        <div id="profile_name">NAME</div>
+<body>
+    <header class="header">
+        <img src="/imgs/runner.ico" alt="logo" id="logo"/>
+        <h2 id="content_header">Welcome to runner ! <span id="user-name-here"></span></h2>
+        <h4 id="greeting-msg">-</h4>
         <nav>
-          <ul>
-            <li><a href="#">Newsfeed</a> <span class="badge_text">2</span></li>
-            <li><a href="#">Conversations</a> <span class="badge_text">1</span></li>
-            <li><a href="#">Events</a> <span class="badge_text">4</span></li>
-            <li>
-              <form action="/logout" method="get">
-                  <input type="submit" value="Logout"/>
-              </form>
-            </li>
-          </ul>
+            <a id="menu1" href="#">
+                <div class="menu">Leader board</div>
+            </a>
+            <a id="menu2" href="#">
+                <div class="menu">Courses</div>
+            </a>
+            <img src="/imgs/runner.ico" alt="logo" id="logo-navbar"/>
+            <a id="menu3" href="#">
+                <div class="menu">Achievements</div>
+            </a>
+            <a id="menu4" href="#">
+                <div class="menu">Friends</div>
+            </a>
+            <form action="/logout" method="get" id="logout-button">
+                <input type="submit" value="Sign Out" />
+            </form>
         </nav>
-      </div>
+    </header>
 
-      <div id="left_column" class="black_background_content">
-        <p class="reg_title_text">Left Content</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nec ullamcorper sit amet risus nullam. Porttitor eget dolor morbi non. Proin fermentum leo vel orci. At in tellus integer feugiat. Risus ultricies tristique nulla aliquet enim tortor at auctor urna. Urna id volutpat lacus laoreet non curabitur. Nunc consequat interdum varius sit amet mattis vulputate enim nulla. Feugiat nisl pretium fusce id. Risus at ultrices mi tempus imperdiet nulla. Morbi tristique senectus et netus et. Malesuada pellentesque elit eget gravida cum. Habitant morbi tristique senectus et netus. Quam viverra orci sagittis eu volutpat.</p>
-        <p>Sed euismod nisi porta lorem mollis aliquam. Condimentum mattis pellentesque id nibh. Sagittis vitae et leo duis ut. Malesuada fames ac turpis egestas sed. Id neque aliquam vestibulum morbi. Porta non pulvinar neque laoreet. Nunc sed blandit libero volutpat sed cras ornare arcu dui. Orci ac auctor augue mauris. Leo duis ut diam quam. Ipsum consequat nisl vel pretium lectus quam id. Dictum varius duis at consectetur lorem donec massa sapien. Risus feugiat in ante metus dictum at tempor. Adipiscing elit duis tristique sollicitudin nibh sit amet commodo. Elementum pulvinar etiam non quam lacus.</p>
-      </div>
-      <div id="middle_column" class="black_background_content">
-        <p class="purple_title_text">Middle Content</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nec ullamcorper sit amet risus nullam. Porttitor eget dolor morbi non. Proin fermentum leo vel orci. At in tellus integer feugiat. Risus ultricies tristique nulla aliquet enim tortor at auctor urna. Urna id volutpat lacus laoreet non curabitur. Nunc consequat interdum varius sit amet mattis vulputate enim nulla. Feugiat nisl pretium fusce id. Risus at ultrices mi tempus imperdiet nulla. Morbi tristique senectus et netus et. Malesuada pellentesque elit eget gravida cum. Habitant morbi tristique senectus et netus. Quam viverra orci sagittis eu volutpat.</p>
-        <p>Sed euismod nisi porta lorem mollis aliquam. Condimentum mattis pellentesque id nibh. Sagittis vitae et leo duis ut. Malesuada fames ac turpis egestas sed. Id neque aliquam vestibulum morbi. Porta non pulvinar neque laoreet. Nunc sed blandit libero volutpat sed cras ornare arcu dui. Orci ac auctor augue mauris. Leo duis ut diam quam. Ipsum consequat nisl vel pretium lectus quam id. Dictum varius duis at consectetur lorem donec massa sapien. Risus feugiat in ante metus dictum at tempor. Adipiscing elit duis tristique sollicitudin nibh sit amet commodo. Elementum pulvinar etiam non quam lacus.</p>
-      </div>
-      <div id="right_column" class="purple_background_content">
-        <p class="reg_title_text">Right Column</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nec ullamcorper sit amet risus nullam. Porttitor eget dolor morbi non. Proin fermentum leo vel orci. At in tellus integer feugiat. Risus ultricies tristique nulla aliquet enim tortor at auctor urna. Urna id volutpat lacus laoreet non curabitur. Nunc consequat interdum varius sit amet mattis vulputate enim nulla. Feugiat nisl pretium fusce id. Risus at ultrices mi tempus imperdiet nulla. Morbi tristique senectus et netus et. Malesuada pellentesque elit eget gravida cum. Habitant morbi tristique senectus et netus. Quam viverra orci sagittis eu volutpat.</p>
-        <p>Sed euismod nisi porta lorem mollis aliquam. Condimentum mattis pellentesque id nibh. Sagittis vitae et leo duis ut. Malesuada fames ac turpis egestas sed. Id neque aliquam vestibulum morbi. Porta non pulvinar neque laoreet. Nunc sed blandit libero volutpat sed cras ornare arcu dui. Orci ac auctor augue mauris. Leo duis ut diam quam. Ipsum consequat nisl vel pretium lectus quam id. Dictum varius duis at consectetur lorem donec massa sapien. Risus feugiat in ante metus dictum at tempor. Adipiscing elit duis tristique sollicitudin nibh sit amet commodo. Elementum pulvinar etiam non quam lacus.</p>
+    <div id="main-image"></div>
 
-      </div>
+    <div id="user-info-container">
+        <img id="user-photo" src="/imgs/running-badge.png" alt="running badge"/>
+    </div>
 
+    <h2 id="data-title">Your running data</h2>
 
+    <div id="card-container">
+        <div id="running-img1"></div>
+        <div id="running-img2"></div>
     </div>
 </body>
+
 </html>

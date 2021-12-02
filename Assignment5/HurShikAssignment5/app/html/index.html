@@ -1,61 +1,53 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Sessions &amp; DB</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="/img/favicon.ico" rel="icon" type="image/x-icon" />
-    <link href="/css/style.css" rel="stylesheet"/>
-  </head>
-  <body>
 
-    <div id="formPanel">
-      <form id='loginForm'>
-        <p id="formTitle">Welcome</p>
-        <input id='email' type='email' required="required" placeholder="Email" value="arron_ferguson@bcit.ca"/>
-        <input id='password' type='password' required="required" placeholder="Password" value="abc123"/>
-        <input type="button" value="Login" id="submit"/>
+<head>
+  <title>Runner</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="/img/runner.ico" rel="icon" type="image/x-icon" />
+  <link href="/css/style.css" rel="stylesheet" />
+</head>
+
+<body>
+  <div id="login-container">
+    <div id="img-container"></div>
+    <div id="formContent">
+      <!-- Tabs Titles -->
+      <h2 class="active"> Sign In </h2>
+      <h2 class="inactive underlineHover">Sign Up </h2>
+  
+      <!-- Icon -->
+      <div class="fadeIn first">
+        <img src="/imgs/runner.ico" id="icon" alt="runner Icon" />
+      </div>
+  
+      <!-- Login Form -->
+      <form>
+        <div id="formTitle">Welcome to Runner!</div>
+        <input type="email" id="login-email" placeholder="Email" value="shik@techschool.ca" />
+        <input type="password" id="login-password" placeholder="abc123">
+        <input type="submit" id="login-submit" value="Login">
         <p><span id="serverMsg"></span></p>
-        <p id="forgotP"><a href="#">Forgot Login</a>?</p>
-        <p id="notMemberP"><a href="#">Get Membership</a></p>
-        <p id="errorMsg">&nbsp;</p>
       </form>
+  
+      <!-- Remind Passowrd -->
+      <div id="formFooter">
+        <a class="underlineHover" href="#">Forgot Password?</a>
+        <p id="errorMsg">&nbsp;</p>
+      </div>
     </div>
+  </div>
 
-    <footer id="footer">
+  <footer id="footer">
+    <div id="credit">
+      COMP1537, Assignment5, Shik, Hur
+    </div>
+  </footer>
 
-    </footer>
-
-    <script src="js/client.js"></script>
-    <script>
-//      $(document).ready(function() {
-//
-//        $("#submit").click(function() {
-//            $.ajax({
-//                url: "/authenticate",
-//                type: "POST",
-//                dataType: "JSON",
-//                data: { email: $("#email").val(), password: $("#password").val() },
-//                success: function(data) {
-//                    //console.log("Data returned from server: ", data);
-//                    if(data['status'] == "success") {
-//                        // redirect
-//                        window.location.replace("/profile");
-//                    } else {
-//                        // show error message
-//                        $("#errorMsg").html(data['msg']);
-//                    }
-//
-//                },
-//                error: function(jqXHR, textStatus, errorThrown) {
-//                    $("body").text(jqXHR.statusText);
-//                }
-//            });
-//
-//        });
-//
-//      });
-
-    </script>
+  <script src="js/client.js"></script>
+  <script>
+  </script>
 </body>
+
 </html>
